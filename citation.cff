@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: >-
+  TopLing - Evaluating the Quality of Machine Translation
+  for Multilingual Topic Modeling
+message: 'If you use this tool, please cite it as below.'
+type: software
+authors:
+  - given-names: Nadezhda
+    family-names: Ozornina
+    affiliation: Ludwig Maximilian University of Munich
+    orcid: 'https://orcid.org/0000-0002-8637-9394'
+  - given-names: Yannik
+    family-names: Peters
+    affiliation: GESIS - Leibniz Institute for the Social Sciences
+    orcid: 'https://orcid.org/0009-0001-4879-5477'
+  - affiliation: Ludwig Maximilian University of Munich
+    given-names: Mario
+    family-names: Haim
+    orcid: 'https://orcid.org/0000-0002-0643-2299'
+repository-code: 'https://github.com/NadezhdaOzornina/TopLing'
+url: >-
+  https://kodaqs-toolbox.gesis.org/github.com/NadezhdaOzornina/TopLing
+keywords:
+  - '"Topic Modeling"'
+  - '"Multilingual Data"'
+  - '"Automated Text Analysis"'
+  - '"Computational Communication Science"'
+license: MIT
+version: 1.0.0
+date-released: '2025-11-24'
