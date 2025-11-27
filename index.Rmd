@@ -39,7 +39,7 @@ By the end of this tutorial, you will be able to:
 
 Topic modeling is a widely used text analysis approach in computational social science, enabling researchers to identify latent thematic structures of large-scale text collections [@jacobi_quantitative_2016]. However, the outcomes of this method are highly sensitive to data quality and preprocessing decisions [see @peters_comparing_2024], making consistent text preparation essential for producing interpretable and comparable results.
 
-A particularly important scenario for assessing data quality arises when working with text collections in multiple languages [@lind_building_2022]. In such cases, machine translation is often applied as a consolidation strategy [@reber_2019], helping to bring multilingual data to a common denominator before the analysis. When combined with probabilistic topic modeling, this approach enables the identification of cross-lingual topics [@chan_reproducible_2020], however, the reliability of findings can be compromised by errors introduced during translation. This dependence on input quality represents a significant challenge in computational text analysis [@baden_integrated_2022] and highlights the need for clear guidelines on evaluating machine translation outputs and understanding their impact on topic modeling results.
+A particularly important scenario for assessing data quality arises when working with text collections in multiple languages [@lind_building_2022]. In such cases, machine translation is often applied as a consolidation strategy [@reber_overcoming_2019], helping to bring multilingual data to a common denominator before the analysis. When combined with probabilistic topic modeling, this approach enables the identification of cross-lingual topics [@chan_reproducible_2020], however, the reliability of findings can be compromised by errors introduced during translation. This dependence on input quality represents a significant challenge in computational text analysis [@baden_integrated_2022] and highlights the need for clear guidelines on evaluating machine translation outputs and understanding their impact on topic modeling results.
 
 ## Aims and Scope
 
@@ -68,9 +68,7 @@ library(grid)
 library(proxy)
 library(remotes)
 library(gtools)
-if (!requireNamespace("piercer", quietly = TRUE)) {
-  remotes::install_github("sjpierce/piercer")
-}
+
 library(piercer)
 ```
 
