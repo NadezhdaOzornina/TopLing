@@ -5,6 +5,7 @@ author:
   - "Nadezhda (Nadja) Ozornina"
   - "Yannik Peters"
   - "Mario Haim"
+image: icon_TopLing.png
 date: "`r format(Sys.Date(), '%B %d, %Y')`"
 output:
   html_document: default
